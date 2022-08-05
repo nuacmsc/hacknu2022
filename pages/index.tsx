@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import HeroSection from '../components/hero'  
 import Timer from '../components/timer'
+import Agenda from '../components/agenda'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,8 @@ const Home: NextPage = () => {
       <HeroSection/>
 
       <Timer/>
+
+      <Agenda/>
 
     </div>
   )
