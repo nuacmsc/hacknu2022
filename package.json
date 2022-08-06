@@ -8,9 +8,12 @@
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
+    "@react-three/drei": "^9.19.6",
+    "@react-three/fiber": "^8.3.0",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "three": "^0.143.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
