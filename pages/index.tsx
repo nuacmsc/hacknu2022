@@ -3,6 +3,8 @@ import Head from 'next/head'
 import HeroSection from '../components/hero'  
 import Timer from '../components/timer'
 import Agenda from '../components/agenda'
+import Footer from '../components/footer'
+import InfoSection from '../components/info'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +19,11 @@ const Home: NextPage = () => {
 
       <Timer/>
 
+      <InfoSection/>
+
       <Agenda/>
+
+      <Footer/>
 
     </div>
   )
