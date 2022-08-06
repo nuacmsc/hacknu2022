@@ -2,7 +2,9 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from './Planetdemo'
 
-export default function Planet() :JSX.Element {
+
+//TODO: Make it work with classNames
+export default function Planet() {
   return (
     <Canvas
          camera={{ position: [2, 0, 12.25], fov: 90 }}
