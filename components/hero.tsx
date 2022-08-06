@@ -7,10 +7,10 @@ import Planet from './Planet'
 
 const navigation = [
   { name: 'Registration', href: '#' },
-  { name: 'Agenda', href: '#' },
-  { name: 'Problems', href: '#' },
-  { name: 'Partners', href: '#' },
-  { name: 'About', href: '#' },
+  { name: 'Agenda', href: '#agenda' },
+  { name: 'Problems', href: '#problems' },
+  { name: 'Partners', href: '#partners' },
+  { name: 'About', href: '#about' },
 ]
 
 export default function HeroSection() {
@@ -147,6 +147,7 @@ export default function HeroSection() {
         Image block
         TODO: place a 3d planet rotating
       */}
+<<<<<<< HEAD
       {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
@@ -157,6 +158,14 @@ export default function HeroSection() {
 
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
         <Planet/>
+=======
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        {/* <img
+          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          alt=""
+        /> */}
+>>>>>>> footer
       </div>
     </div>
   )
