@@ -144,7 +144,7 @@ export default function HeroSection() {
         </div>
       </div>
       
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5">
         <Planet/>
       </div>
     </div>

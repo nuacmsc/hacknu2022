@@ -6,6 +6,7 @@ import Agenda from '../components/agenda'
 import Footer from '../components/footer'
 import InfoSection from '../components/info'
 
+
 const Home: NextPage = () => {
   return (
     <div>
