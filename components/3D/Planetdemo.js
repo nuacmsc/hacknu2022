@@ -9,8 +9,8 @@ import * as THREE from "three"
 
 
 //TODO: Change URL for live-url on production. 
-// const URL = "http://localhost:3000/models/planet.glb";
-const URL = "https://tubular-sunburst-06da0f.netlify.app/models/planet.glb";
+const URL = "http://localhost:3000/models/planet.glb";
+// const URL = "https://tubular-sunburst-06da0f.netlify.app/models/planet.glb";
 
 
 export default function PlanetModel(props) {
@@ -19,7 +19,7 @@ export default function PlanetModel(props) {
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Sphere_1.geometry} material={materials.PlanetMat} />
-      <mesh geometry={nodes.Sphere_2.geometry} material={materials['Material.005']} />
+      <mesh geometry={nodes.Sphere_2.geometry} material={materials['Material.005']} rotation-x={0.2}/>
     </group>
   )
 }

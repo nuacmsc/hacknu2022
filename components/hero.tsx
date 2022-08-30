@@ -6,7 +6,7 @@ import SolidButton from './solidButton'
 import Planet from './Planet'
 
 const navigation = [
-  { name: 'Registration', href: '#' },
+  { name: 'Registration', href: '#registration' },
   { name: 'Agenda', href: '#agenda' },
   { name: 'Problems', href: '#problems' },
   { name: 'Partners', href: '#partners' },
@@ -58,9 +58,9 @@ export default function HeroSection() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-violet-500 hover:text-violet-200">
+                  {/* <a href="#" className="font-medium text-violet-500 hover:text-violet-200">
                     Register
-                  </a>
+                  </a> */}
                 </div>
               </nav>
             </div>
@@ -124,15 +124,16 @@ export default function HeroSection() {
                 <span className="block text-violet-500 inline">2022</span>{'>'}
               </h1>
               <p className="mt-3 text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                36-hour-long coding marathon 
-                where participants form teams of 1-4 people each and solve 
-                real-life problems provided by top worldwide and Kazakhstani companies.
+                HackNU is a marathon in different areas of computer technology. 
+                Teams will have 36 hours to solve problems from the best 
+                global and Kazakhstani IT companies.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <SolidButton url="#" text="Register" />
+                <SolidButton url="#registration" text="Register" />
+
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="#agenda"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-violet-700 bg-violet-100 hover:bg-violet-200 md:py-4 md:text-lg md:px-10"
                   >
                     Event plan
@@ -144,7 +145,7 @@ export default function HeroSection() {
         </div>
       </div>
       
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5">
+      <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5">
         <Planet/>
       </div>
     </div>

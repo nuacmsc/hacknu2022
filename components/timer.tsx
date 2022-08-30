@@ -13,8 +13,8 @@ export default function Timer () {
   
       // SOE - start of event
       // EOE - end of event
-      const targetSOE = new Date("9/24/2022 9:00:00");
-      const targetEOE = new Date("9/25/2022 21:00:00")
+      const targetSOE = new Date("9/23/2022 20:00:00");
+      const targetEOE = new Date("9/25/2022 8:00:00")
   
       const interval = setInterval(() => {
         const now = new Date();
