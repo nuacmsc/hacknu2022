@@ -9,8 +9,8 @@ import * as THREE from "three"
 
 
 //TODO: Change URL for live-url on production. 
-const URL = "http://localhost:3000/models/planet.glb";
-// const URL = "https://tubular-sunburst-06da0f.netlify.app/models/planet.glb";
+// const URL = "http://localhost:3000/models/planet.glb";
+const URL = "https://tubular-sunburst-06da0f.netlify.app/models/planet.glb";
 
 
 export default function PlanetModel(props) {
