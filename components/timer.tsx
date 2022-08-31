@@ -86,35 +86,35 @@ export default function Timer () {
                 </div>
 
                 <div className="flex justify-center items-center dark">
-                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-8 bg-white'>
-                    <span className="font-bold text-4xl">{days}</span>
+                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
+                    <span className="font-bold text-2xl lg:text-4xl">{days}</span>
                     <span className="text-xs mx-auto mt-4">Days</span>
                   </div>
 
                   <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
-                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-8 bg-white'>
-                    <span className="font-bold text-4xl">{hours}</span>
+                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
+                    <span className="font-bold text-2xl lg:text-4xl">{hours}</span>
                     <span className="text-xs mx-auto mt-4">hours</span>
                   </div>
 
                   <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
-                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-8 bg-white'>
-                    <span className="font-bold text-4xl">{minutes}</span>
+                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
+                    <span className="font-bold text-2xl lg:text-4xl">{minutes}</span>
                     <span className="text-xs mx-auto mt-4">minutes</span>
                   </div>
 
                   <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
-                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-8 bg-white'>
-                    <span className="font-bold text-4xl">{seconds}</span>
+                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
+                    <span className="font-bold text-2xl lg:text-4xl">{seconds}</span>
                     <span className="text-xs mx-auto mt-4">minutes</span>
                   </div>
                 </div>
-                <div className='mx-auto my-8 md:w-48 w-full'>
+                {/* <div className='mx-auto my-8 md:w-48 w-full'>
                   <SolidButton url="#" text="Register"></SolidButton>
-                </div>
+                </div> */}
             </div>
         </section>
     )

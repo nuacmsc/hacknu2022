@@ -3,7 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import SolidButton from './solidButton'
 
-import Planet from './Planet'
+// import Planet from './Planet'
 
 const navigation = [
   { name: 'Registration', href: '#registration' },
@@ -40,8 +40,7 @@ export default function HeroSection() {
                       <img
                         alt="Workflow"
                         className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" 
-                        // TODO: change the logoa
+                        src="logo.svg" 
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -83,9 +82,8 @@ export default function HeroSection() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        // TODO change logo here
-                        alt=""
+                        src="logo.svg"
+                        alt="hacknu logo"
                       />
                     </div>
                     <div className="-mr-2">
@@ -145,8 +143,9 @@ export default function HeroSection() {
         </div>
       </div>
       
-      <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5">
-        <Planet/>
+      <div className="hidden lg:flex lg:justify-around lg:items-center lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5">
+        {/* <Planet/> */}
+        <img src="1_high.png" alt="maskot with heart eyes" className="w-1/2" />
       </div>
     </div>
   )
