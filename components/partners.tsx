@@ -1,6 +1,6 @@
 export default function () {
     return (
-        <div className="flex flex-col items-center py-8">
+        <div id="partners" className="flex flex-col items-center py-8">
             <h1 className="font-bold text-3xl mb-8 text-gray-800">Our sponsors</h1>
             <div className="flex flex-row gap-4">
                 <img className="w-20 md:w-32 lg:w-48 mr-4" src="google.svg" alt="Google" />
