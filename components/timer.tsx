@@ -68,7 +68,7 @@ export default function Timer () {
 
     return (
         <section className="text-gray-600 body-font bg-zinc-800">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 pb-24 pt-12 mx-auto">
                 <div className="flex flex-col text-center w-full mb-8">
                   <h2 className="text-sm text-violet-300 tracking-widest font-bold title-font mb-1">Until</h2>
                   <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-200">
@@ -87,29 +87,29 @@ export default function Timer () {
 
                 <div className="flex justify-center items-center dark">
                   <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
-                    <span className="font-bold text-2xl lg:text-4xl">{days}</span>
+                    <h1 className="font-bold text-2xl lg:text-4xl">{days}</h1>
                     <span className="text-xs mx-auto mt-4">Days</span>
                   </div>
 
                   <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
                   <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
-                    <span className="font-bold text-2xl lg:text-4xl">{hours}</span>
+                    <h1 className="font-bold text-2xl lg:text-4xl">{hours}</h1>
                     <span className="text-xs mx-auto mt-4">hours</span>
                   </div>
 
                   <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
                   <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
-                    <span className="font-bold text-2xl lg:text-4xl">{minutes}</span>
+                    <h1 className="font-bold text-2xl lg:text-4xl">{minutes}</h1>
                     <span className="text-xs mx-auto mt-4">minutes</span>
                   </div>
-
-                  <span className="font-bold  my-auto mx-4 text-gray-100">:</span>
                   
-                  <div className='flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
-                    <span className="font-bold text-2xl lg:text-4xl">{seconds}</span>
-                    <span className="text-xs mx-auto mt-4">minutes</span>
+                  <span className="font-bold hidden lg:block my-auto mx-4 text-gray-100">:</span>
+                    
+                  <div className='hidden lg:flex justify-center items-center flex-col rounded drop-shadow px-4 py-6 lg:py-8 bg-white'>
+                    <h1 className="font-bold text-2xl lg:text-4xl">{seconds}</h1>
+                    <span className="text-xs mx-auto mt-4">seconds</span>
                   </div>
                 </div>
                 {/* <div className='mx-auto my-8 md:w-48 w-full'>
