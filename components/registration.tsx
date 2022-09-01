@@ -2,7 +2,7 @@ import SolidButton from './solidButton'
 
 export default function Registration () {
     return (
-        <div className="flex flex-col py-16 bg-zinc-800 items-center">
+        <div id="registration" className="flex flex-col py-16 bg-zinc-800 items-center">
             <h1 className="font-bold text-3xl text-white">Registration regulations</h1>
             <div className="flex w-full px-8 lg:px-32 mt-8 flex-col md:flex-row gap-8">
                 <div className="lg:w-1/3">
