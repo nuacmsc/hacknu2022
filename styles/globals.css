@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "NeueMachina";
+    src: url(../public/fonts/PPNeueMachina-InktrapRegular.otf);
+}
+
+.font-neue {
+    font-family: "NeueMachina", sans-serif;
+}
+
+h1, h2 {
+    font-family: "NeueMachina", sans-serif;
+}

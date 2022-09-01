@@ -2,8 +2,8 @@ import AgendaBlock from "./agendaBlock"
 
 export default function Agenda () {
 return (
-    <div id="agenda" className="bg-zinc-800 py-8 flex justify-center flex-col items-center">
-            <span className="font-bold text-3xl mb-8 text-white">Event Agenda (GMT +6)</span>
+    <div id="agenda" className="bg-zinc-800 py-16 flex justify-center flex-col items-center">
+        <h1 className="font-bold text-3xl mb-8 text-white">Event Agenda (GMT +6)</h1>
         <div className="px-32 flex justify-between flex-col lg:flex-row items-center">
 
             <ol className="relative border-l border-gray-200 dark:border-gray-700 flex-grow">    
