@@ -1,7 +1,7 @@
 export default function InfoSection () {
     return (
 
-    <section className="bg-violet-200">
+    <section className="">
         <div className="gap-16 items-center py-24 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
             <div className="sm:text-lg text-gray-700">
                 <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900">NU ACM SC supports the IT movement among young people in Kazakhstan</h2>

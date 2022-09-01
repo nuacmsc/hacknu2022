@@ -6,6 +6,7 @@ import Agenda from '../components/agenda'
 import Footer from '../components/footer'
 import InfoSection from '../components/info'
 import Registration from '../components/registration'
+import Partners from '../components/partners'
 
 
 const Home: NextPage = () => {
@@ -29,6 +30,8 @@ const Home: NextPage = () => {
       <Registration/>
 
       <Agenda/>
+
+      <Partners/>
 
       <Footer/>
 
