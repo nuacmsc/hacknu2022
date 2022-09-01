@@ -8,7 +8,6 @@ import SolidButton from './solidButton'
 const navigation = [
   { name: 'Registration', href: '#registration' },
   { name: 'Agenda', href: '#agenda' },
-  { name: 'Problems', href: '#problems' },
   { name: 'Partners', href: '#partners' },
   { name: 'About', href: '#about' },
 ]
