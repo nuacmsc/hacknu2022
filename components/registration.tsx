@@ -3,9 +3,9 @@ import SolidButton from './solidButton'
 
 // TODO: Add registration links
 const registrationLinks = {
-    kk: '#',
-    ru: '#',
-    en: '#',
+    kk: 'https://forms.gle/UMS5wY2mnYhvULBW7',
+    ru: 'https://forms.gle/EhAYjabwPKLvM38T8',
+    en: 'https://forms.gle/8MVh6DwjqNJGZceL6',
 }
 
 export default function Registration () {
@@ -35,7 +35,7 @@ export default function Registration () {
                                 <Popover.Panel className="absolute w-full flex flex-col items-center mt-6">
                                     <div className="bg-white w-4 h-4 rotate-45 -m-3 rounded-sm"/>
                                     <div className="bg-white min-w-full grid grid-cols-1 lg:grid-cols-3 p-4 rounded-md gap-4 drop-shadow-md">
-                                        <SolidButton url={registrationLinks.kk} text="KK" />
+                                        <SolidButton url={registrationLinks.kk} text="KZ" />
                                         <SolidButton url={registrationLinks.en} text="EN" />
                                         <SolidButton url={registrationLinks.ru} text="RU" />
                                     </div>
@@ -48,7 +48,7 @@ export default function Registration () {
                 <div className="lg:w-1/3">
                     <span className="text-2xl font-bold text-gray-100">Team composition</span>
                     <p className="text-gray-300 text-base mt-4">After that, you will find you teammates;</p>
-                    <p className="text-gray-300 text-base mt-2">- Teams with 4 or 5 members must have at least one female member</p>
+                    {/* <p className="text-gray-300 text-base mt-2">- Teams with 4 or 5 members must have at least one female member</p> */}
                     <p className="text-gray-300 text-base mt-2">Important note! If your team includes 3 and over members, you need to have at least 1 female member in a team. This is a required condition. </p>
                 </div>
             </div>

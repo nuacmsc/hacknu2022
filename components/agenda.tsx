@@ -29,27 +29,14 @@ return (
                 <AgendaBlock
                     title="Guest talk by Google representative 🎤"
                     time="Sep 24 13:30"
-                    description="Lorem ipsum dolar sit amet"
-                    urlMore="https://instagram.com/hacknukz"
-                    />
-                <AgendaBlock
-                    title="Workshop by Google representative 🏗"
-                    description="Lorem ipsum dolar sit amet"
-                    time="Sep 24 14:00"
                     />
                 <AgendaBlock
                     title="Guest talk by EPAM representative 🎤"
                     time="Sep 24 17:00"
-                    description="Lorem ipsum dolar sit amet"
-                    urlMore="https://instagram.com/hacknukz"
                     />
                 <AgendaBlock
                     title="Mini games 🕹"
                     time="Sep 24 17:30"
-                    />
-                <AgendaBlock
-                    title="Pizza Break 🍕"
-                    time="Sep 24 18:30 "
                     />
                 <AgendaBlock
                     title="Submission deadline ▶"

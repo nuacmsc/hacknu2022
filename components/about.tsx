@@ -14,11 +14,14 @@ const Block: React.FC<React.PropsWithChildren<{ title: string}>> = ({ title, chi
 export const About = () => {
     return (
         <section className="body-font">
-            <div className="container px-5 py-16 mx-auto grid grid-cols-1 md:grid-cols-2 justify-between gap-12">
+            <div className="container px-5 py-16 mx-auto grid grid-cols-1 md:grid-cols-3 justify-between gap-12">
                 <Block title="Time">
                     23-25 September
                 </Block>
                 <Block title="Location">
+                    Kazakhstan, Nur-Sultan
+                </Block>
+                <Block title="Venue">
                     NU Ballroom Left C2
                 </Block>
             </div>

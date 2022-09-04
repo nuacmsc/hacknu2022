@@ -7,7 +7,7 @@ export const Question: React.FC<{ question: string, text: string }> = ({ questio
                 <>
                     <Disclosure.Button className="flex items-center w-full justify-between rounded-lg bg-violet-100 px-4 py-2 text-left text-md font-medium text-violet-900 hover:bg-violet-200 focus:outline-none focus-visible:ring focus-visible:ring-violet-500 focus-visible:ring-opacity-75">
                         <span>{question}</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className={`h-5 w-5 text-purple-500 transform transition-transform ${open ? '' : 'rotate-180'}`}><path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className={`h-5 w-5 text-purple-500 transform transition-transform ${open ? '' : 'rotate-180'}`}><path fillRule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clipRule="evenodd"></path></svg>
                     </Disclosure.Button>
                     <Disclosure.Panel className="text-gray-500">
                         {text}

@@ -13,8 +13,8 @@ export default function Timer () {
   
       // SOE - start of event
       // EOE - end of event
-      const targetSOE = new Date("9/23/2022 20:00:00");
-      const targetEOE = new Date("9/25/2022 8:00:00")
+      const targetSOE = new Date("9/17/2022 23:59:59");
+      const targetEOE = new Date("9/19/2022 23:59:59")
   
       const interval = setInterval(() => {
         const now = new Date();
@@ -77,10 +77,10 @@ export default function Timer () {
                       hackTime ?
                       <span> end </span>
                       :
-                      <span> start </span>
+                      <span> end </span>
                     }
 
-                    of the Hackathon
+                    of the Registration
                   </h1>
                   {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
                 </div>
