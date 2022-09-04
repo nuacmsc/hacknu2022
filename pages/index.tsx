@@ -7,6 +7,8 @@ import Footer from '../components/footer'
 import InfoSection from '../components/info'
 import Registration from '../components/registration'
 import Partners from '../components/partners'
+import { About } from '../components/about'
+import { FAQ } from '../components/faq'
 
 
 const Home: NextPage = () => {
@@ -42,10 +44,14 @@ const Home: NextPage = () => {
 
       <HeroSection/>
 
+      <About />
+
       <Timer/>
 
       <InfoSection/>
       <Registration/>
+
+      <FAQ />
 
       <Agenda/>
 

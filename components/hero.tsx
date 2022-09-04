@@ -104,7 +104,7 @@ export default function HeroSection() {
                     ))}
                   </div>
                   <a
-                    href="#"
+                    href="#registration"
                     className="block w-full px-5 py-3 text-center font-medium text-violet-600 bg-violet-100 hover:bg-gray-100"
                   >
                     Register
