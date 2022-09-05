@@ -2,7 +2,7 @@ export default function InfoSection () {
     return (
 
     <section id="about">
-        <div className="gap-16 items-center py-24 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
             <div className="sm:text-lg text-gray-700">
                 <a href="https://instagram.com/nuacmsc" className="text-gray-700 hover:text-violet-800">
                     <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

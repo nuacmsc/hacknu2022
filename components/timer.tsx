@@ -130,6 +130,10 @@ export default function Timer () {
                       </a>
                   </div>
                 </div>
+
+                <div className="flex justify-around mt-16 px-8 lg:px-64">
+                  <iframe className="aspect-video w-full max-w-128" src="https://www.youtube.com/embed/GYEjJOI-f7Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         </section>
     )
