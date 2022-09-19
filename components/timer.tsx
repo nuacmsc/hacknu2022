@@ -13,8 +13,8 @@ export default function Timer () {
   
       // SOE - start of event
       // EOE - end of event
-      const targetSOE = new Date("9/17/2022 23:59:59");
-      const targetEOE = new Date("9/19/2022 23:59:59")
+      const targetSOE = new Date("9/23/2022 20:00:00");
+      const targetEOE = new Date("9/25/2022 8:00:00")
   
       const interval = setInterval(() => {
         const now = new Date();
@@ -72,15 +72,7 @@ export default function Timer () {
                 <div className="flex flex-col text-center w-full mb-8">
                   <h2 className="text-sm text-violet-300 tracking-widest font-bold title-font mb-1">Until</h2>
                   <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-200">
-                    The 
-                    {
-                      hackTime ?
-                      <span> end </span>
-                      :
-                      <span> end </span>
-                    }
-
-                    of the Registration
+                    The start of the Hackathon
                   </h1>
                   {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
                 </div>
