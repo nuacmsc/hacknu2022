@@ -10,17 +10,17 @@ return (
 
                 <AgendaBlock
                     title="Opening Ceremony 🏁"
-                    time="Sep 23 19:00"
+                    time="Sep 23 20:00"
                     description=""
                 />
                 <AgendaBlock
                     title="Technical Problem Briefing 🎙"
-                    time="Sep 23 19:30"
+                    time="Sep 23 20:30"
                     description=""
                 />
                 <AgendaBlock
                     title="Participants start solving problems 👨🏻‍💻👩🏻‍💻"
-                    time="Sep 23 20:00"
+                    time="Sep 23 21:00"
                 />
                 <AgendaBlock
                     title="Coffee Break☕"
@@ -40,11 +40,11 @@ return (
                     />
                 <AgendaBlock
                     title="Submission deadline ▶"
-                    time="Sep 25 8:00"
+                    time="Sep 25 9:00"
                     />
                 <AgendaBlock
                     title="Closing Ceremony 🎌"
-                    time="Sep 25 8:00 - 8:20"
+                    time="Sep 25 9:00 - 9:20"
                     last="true"
                 />
             </ol>

@@ -19,10 +19,10 @@ export const About = () => {
                     23-25 September
                 </Block>
                 <Block title="Location">
-                    Kazakhstan, Nur-Sultan
+                    Kazakhstan, Astana
                 </Block>
                 <Block title="Venue">
-                    NU Ballroom Left C2
+                    NU Ballroom Left, Right C2
                 </Block>
             </div>
         </section>
